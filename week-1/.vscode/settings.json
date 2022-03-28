@@ -1,0 +1,51 @@
+{
+    "files.exclude": {
+        "**/*.pyc": {
+            "when": "$(basename).py"
+        },
+        "**/.git": false,
+        "**/*.coverage": true,
+        "**/__pycache__": true
+    },
+    "http.proxy": "https://proxy-chain.intel.com:911/",
+    "editor.minimap.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "workbench.editor.showTabs": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=.de-ci/python/linting/.flake8"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--global-config=.de-ci/python/linting/.flake8"
+    ],
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pydocstyleArgs": [
+        "--config=.de-ci/python/linting/.pydocstyle"
+    ],
+    "htmlhint.options": {
+        "doctype-first": false
+    },
+    "python.testing.promptToConfigure": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.sortImports.args": [
+        "-w",
+        "99"
+    ]
+}
