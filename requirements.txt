@@ -1,3 +1,8 @@
 matplotlib ~= 3.5
 numpy ~= 1.22
 pandas ~= 1.4
+plotly
+folium==0.5.0
+dash
+seaborn
+jupyter_dash
