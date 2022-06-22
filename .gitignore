@@ -147,6 +147,4 @@ tests/datasets/*/output_data_actual.json
 tests/datasets/*/outputs
 tests/datasets/*/files
 tests/files
-
-# artifacts from dedt
 artifacts/
