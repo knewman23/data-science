@@ -6,3 +6,4 @@ folium==0.5.0
 dash
 seaborn
 jupyter_dash
+flake8
